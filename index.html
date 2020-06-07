@@ -1,0 +1,276 @@
+<html>
+    <head>
+        <title> Coronavirus </title> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css ">
+    </head>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/7.8.2/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="/__/firebase/7.8.2/firebase-analytics.js"></script>
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+
+
+
+
+
+    <body>
+        <div class="profile-img">
+            <img src="icons/corona_icon2.PNG">
+        </div>
+
+        <div class="profile-info">
+            <h1>Corona Watch</h1>
+
+            <p class="about">
+                The app is designed to allow people confirmed to have coronavirus, to mark there recent locations
+                with a red Marker. People unconfirmed will mark there positions with a yellow is to marker 
+                 Each marker only last 5 days and each marker is anonymous.        
+                Coronavirus is everyones problem, let everyone be the solution.
+            
+                <br><br>
+            
+                The more people using the app the better the app works.
+                If you are a confirmed or an unconfirmed case, mark your position to keep 
+                those with underlining health conditions safer, those with out infection safer
+                and essential works safer.
+            
+                <br><br>
+            
+                If you do not have the virus use the application to stay clear of the marked areas or 
+                provide extra caution to those areas in order to prevent the spread of the virus.
+                Together we can stop Coronavirus and kill the second wave.
+
+
+                
+            </p>
+
+
+
+            <h1>Download For Androids</h1>
+
+            <p class="about">
+                <div class="download-media"> 
+                    Click the blue Corona Watch link below, a prompt will ask you to download
+                    the "app-debug.apk". Click Download. Click on "settings" <br><br>
+                    <img src= "icons/open source.jpg"><br><br>
+
+                    Swipe right to allow download. <br><br>
+                    then click the back button.<br><br>
+                    <img src= "icons/Allow_no.jpg"><br><br>
+                    <img src= "icons/allow_yes.jpg"><br><br>
+
+                    Click install <br><br>
+                    <img src= "icons/do_you_want_to_intall.jpg"><br><br>
+
+                    Click open<br><br>
+                    <img src= "icons/open.jpg"><br><br>
+                </div>
+
+            </p>
+
+            <!-- Make it a photo or change Apk name-->
+            <a class="about" href="app-debug.apk" style="font-size:30px">
+                Corona Watch
+            </a>
+
+            
+            <h1>Download For IOS</h1>
+
+            <p class="about">
+                Coming soon!
+
+            </p>
+
+
+
+        
+
+
+
+
+
+
+
+
+            <div class="social-media"> 
+                <!-- To LinkedIn page-->
+                <a href="https://www.linkedin.com/in/marcus-nash-32a118148/"> 
+                    <img src="icons/download.png">
+                </a>
+
+                <!-- To Instagram page-->
+                <a href="https://www.instagram.com/44code_red/"> 
+                    <img src= "icons/insta.jpeg">
+                </a>
+
+                <!-- To Github page-->
+                <a href="https://github.com/44nash">
+                    <img src= "icons/github.png">
+                </a>
+            </div>
+
+            <!-- ========================================================= -->     
+            
+             <!-- 
+            <h2>Expertise</h2>
+                <div class="expertise"> 
+                    <img src="icons/web.jpeg">
+                    <p><b>Web Designing</b></p>
+
+                    <small>
+                        Now is the winter of our discontent
+                        Made glorious summer by this sun of York;
+                        And all the clouds that lour'd upon our house
+                        In the deep bosom of the ocean buried.
+
+                    </small>
+
+                </div>
+
+
+                <div class="expertise"> 
+                    <img src="icons/DigMar.jpeg">
+                    <p><b>Digital Marketing</b></p>
+
+                    <small>
+                        Now is the winter of our discontent
+                        Made glorious summer by this sun of York;
+                        And all the clouds that lour'd upon our house
+                        In the deep bosom of the ocean buried.
+
+                    </small>
+
+                </div>
+
+                <div class="expertise"> 
+                    <img src="icons/Graphic-_Design.jpg">
+                    <p><b>Graphic Design</b></p>
+
+                    <small>
+                        Now is the winter of our discontent
+                        Made glorious summer by this sun of York;
+                        And all the clouds that lour'd upon our house
+                        In the deep bosom of the ocean buried.
+
+                    </small>
+
+                </div>
+
+
+                --> 
+
+
+
+
+
+
+            <!-- ========================================================= --> 
+                
+            <h2>App content</h2>
+                <div class="projects">
+                    <img src="icons/App_Country.jpg">
+                    <img src="icons/App_Donations.jpg">
+                    <img src="icons/App_General.jpg">
+                    <img src="icons/App_Map.jpg">
+                    <img src="icons/App_World.jpg">
+                    <!--
+                        <img src="icons/funTech.jpeg">
+                    -->
+                </div>
+
+
+
+
+
+
+
+
+
+
+                <!--- Should be fine below here-->
+
+                <div class="form-box">
+                    <h2> Contact Me</h2>
+                    
+
+                        <div class="alert">Your Message has been sent</div>
+
+                    <form id="contactForm"  
+                    action="https://formspree.io/xyynwaaq"
+                     method="POST"> 
+
+                        <div class = "input-group">
+                            <label for="fname"></label>
+                            <input type="text" placeholder="First Name" name="fname" id="firstName" required>
+                            
+                            <label for="lname"></label>
+                            <input type="text" placeholder="Last Name" 
+                            name="lname"
+                            id="lastName"required>
+                        </div>
+
+                        <div class = "input-group">
+                            <label for="number"></label>
+                            <input type="number" placeholder="Phone number" 
+                            name="number"
+                            id="phoneNumber" required>
+                           
+                            <label for="email"></label>
+                            <input type="email" placeholder="Email" 
+                            name="email"
+                            id="email" required> 
+                        </div>
+
+                        <div class="text-area">
+                            <label for="messege"></label>
+                            <textarea rows= "4" placeholder="Your Message" 
+                            name="messege"
+                            id="yourMessage" ></textarea>
+                        </div>
+                        	<!-- CONFIG -->
+        
+
+                        <button type="submit" class="submit-btn" value="Send">SEND MESSAGE</button>
+
+                    </form>
+
+                </div>
+
+                
+
+
+                <div class="contact">
+                    <span></span><img src="icons/gmail.jpeg">44mcode@gmail.com</span>
+                    <span></span><img src="icons/phone.jpeg">908-425-8158</span>
+
+
+                </div>
+
+
+
+
+        </div>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-analytics.js">
+    </script>
+
+
+
+    <script src="main.js"></script>
+
+
+        
+    </body>
+
+    </html>
